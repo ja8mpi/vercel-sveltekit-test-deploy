@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/app.css */
+
+@font-face {
+	font-family: 'Akshar';
+	font-style: normal;
+	font-optical-sizing: auto;
+	src: url('/fonts/Akshar/static/Akshar-Regular.ttf') format('truetype');
+	font-display: swap; /* Ensures fallback font is visible until custom font loads */
+}
+
+body {
+	font-family: 'Akshar', sans-serif;
+}
